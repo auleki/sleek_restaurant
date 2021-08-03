@@ -137,6 +137,33 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
+.scrolltop {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+  background-color: rgba(6, 156, 84, .5);
+  border-radius: .4rem;
+  z-index: $z-tooltip;
+  transition: opacity 300ms ease-in-out;
+  opacity: 0;
+  &:hover {
+    background-color: $first-color-alt;
+  }
+}
+
+.scrolltop__icon {
+  font-size: 1.5rem;
+  color: $body-color;
+}
+
+.scroll-top {
+  opacity: 1;
+}
+
 /*   */  
 
 /*   */  
