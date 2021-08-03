@@ -147,6 +147,14 @@ img {
   top: 3rem;
 }
 
+.active-link {
+  color: #069c54;
+}
+
+.scroll-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /*   */
 /*   */
 /*   */
