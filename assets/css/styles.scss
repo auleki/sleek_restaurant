@@ -1,6 +1,17 @@
 @import './variables';
 
-/*   */  
+/* Change Theme  */  
+
+.change-theme {
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+  color: $text-color;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
 body {
   margin: $header-height 0 0 0;
   font-family: $body-font;
@@ -8,6 +19,12 @@ body {
   background-color: $body-color;
   color: $text-color;
   line-height: 1.6;
+  &.dark-theme {
+    $title-color: #F1F3F2;
+    $text-color: #C7D1CC;
+    $body-color: #1D2521;;
+    $container-color: #27302C;
+  }
 }
 
 ul {
@@ -410,6 +427,11 @@ img {
     padding-top: 8rem;
   }
 
+  .change-theme {
+    position: initial;
+    margin-left: $mb-2;
+  }
+
   .nav {
     height: calc($header-height + 1.5rem);
   }
@@ -446,7 +468,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 968px) {
   .bd-container {
     margin-left: auto;
     margin-right: auto;
