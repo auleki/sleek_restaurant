@@ -293,8 +293,84 @@ img {
   padding: .625rem .813rem;
   border-radius: .5rem 0 .5rem 0;;
 }
-/*   */  
-/*   */  
 
-/*   */  
-/*   */  
+
+/* APP  */  
+.app__data {
+  text-align: center;
+}
+
+.app__description {
+  margin-bottom: $mb-5;
+}
+
+.app__stores {
+  margin-bottom: $mb-4;
+}
+
+.app_store {
+  width: 120px;
+  margin: 0 $mb-1;
+}
+
+.app_img {
+  width: 230px;
+  justify-content: center;
+}
+
+/* CONTACT  */  
+.contact__container {
+  text-align: center;
+}
+
+.contact__description {
+  margin-bottom: $mb-3;
+}
+
+/* FOOTER  */  
+.footer__container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
+.footer__logo {
+  font-size: $h3-font-size;
+  color: $first-color;
+  font-weight: $font-semi-bold;
+}
+
+.footer__description {
+  display: block;
+  font-size: $small-font-size;
+  margin: .25rem 0 $mb-3;
+}
+
+.footer__social {
+  font-size: 1.5rem;
+  color: $title-color;
+  margin-right: $mb-2;
+}
+
+.footer__title {
+  font-size: $h2-font-size;
+  color: $title-color;
+  margin-bottom: $mb-2;
+}
+
+.footer__link {
+  display: inline-block;
+  color: $text-color;
+  margin-bottom: $mb-1;
+  &:hover {
+    color: $first-color;
+  }
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: $small-font-size;
+  color: $text-color-light;
+  margin-top: 3.5rem;
+}
+
+/* MEDIA QUERIES  */  
