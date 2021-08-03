@@ -164,12 +164,84 @@ img {
   opacity: 1;
 }
 
-/*   */  
+/* HOME */  
+.home__container {
+  height: calc(100vh - $header-height);
+  // background: $first-color;
+  align-content: center;
+}
 
-/*   */  
-/*   */  
+.home__title {
+  font-size: $biggest-font-size;
+  color: $first-color;
+  margin-bottom: $mb-1;
+}
 
-/*   */  
+.home__subtitle {
+  font-size: $h1-font-size;
+  color: $title-color;
+  margin-bottom: $mb-4;
+}
+
+.home__img {
+  width: 300px;
+  justify-self: center;
+}
+
+/* BUTTONS */  
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: $body-color;
+  padding: .75rem 1rem;
+  border-radius: .2rem;
+  transition: background-color 300ms ease-in-out;
+  &:hover {
+    background-color: $first-color-alt;
+  }
+}
+
+
+
+/* ABOUT  */  
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: $mb-3;
+}
+
+.about__img {
+  width: 280px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+
+/* SERVICES  */  
+.services__container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services__content {
+  text-align: center;
+}
+
+.services__img {
+  width: 64px;
+  height: 64px;
+  fill: $first-color;
+  justify-self: center;
+}
+
+
+
+
+
+
+
 /*   */  
 
 /*   */  
